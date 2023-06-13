@@ -1,0 +1,281 @@
+/* Estilos generales */
+:root {
+    --color_fondo_claro: #b9bbbd;
+    --color_boton: #93BBBF;
+    --color_fondo_oscuro: #374342;
+    --color_boton_realce: #899B9F;
+    --color_textos: #0D0D0D;
+    --color_blanco: #ffffff;
+}
+
+body {
+    background-image: url(../img/81-810743_tech-wallpaper-iphone.jpg);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    background-color: none;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos de la sección "menu-header" */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 10px 10px 10px 10px;
+    font-size: small;
+}
+
+.contact-info p a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/* Estilos de la sección "menu-profile" */
+.menu-profile {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.profile img {
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+.profile span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.title__network {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 0;
+    margin-right: 10px;
+    align-self: center;
+    font-size: 120%;
+}
+
+.title__network a {
+    color: #fff;
+    margin-left: 25px;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container-div {
+    margin: 0px 0 0 0;
+}
+
+/* Estilos de las pestañas */
+.tabs {
+    list-style-type: none;
+    width: 20px;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    transform: rotate(-90deg);
+}
+
+.container-div .tabs li {
+    padding: 10px 10px 10px 10px;
+    margin-left: 2px;
+    vertical-align: middle;
+    background-color: none;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    height: 25px;
+}
+
+.tab-content {
+    display: block;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.container-section {
+    margin-left: 0px;
+    text-align: justify;
+    color: #fff;
+}
+
+/*Sección skills*/
+
+.tab-content h3 {
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__box ul {
+    list-style-type: none;
+    color: var(--color_fondo_claro);
+}
+
+.skills__img {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        margin-left: 40px;
+        background-image: url(../img/18adb7094eb7d2a71d4bfc6d8c58ef29.jpg);
+        background-size: cover;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .contact-info {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-top: 10px;
+    }
+
+    .contact-info p {
+        font-size: 20px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        height: 200px;
+    }
+
+    .profile img {
+        width: 250px;
+        border-radius: 20%;
+        /*box-shadow: 2px 2px 30px grey;*/
+    }
+
+    .profile span {
+        margin-left: 100px;
+        font-size: 60px;
+        text-align: end;
+    }
+
+    .title__network {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        padding: 0;
+        align-self: center;
+        font-size: 150%;
+    }
+
+    .title__network a {
+        color: #fff;
+        margin-left: 25px;
+        font-size: larger;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+
+    .title__network a:hover {
+        color: var(--color_fondo_oscuro);
+        scale: 1.5;
+    }
+
+    /*Estilos de las pestañas*/
+    .tabs {
+        margin: 20px 5px 0px 35px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    /*Estilo del contenido de las secciones*/
+    .container-section {
+        margin: 20px 20px 0px 20px;
+        text-align: justify;
+        color: var(--color_blanco);
+        font-size: 24px;
+    }
+
+    .container-div .tabs li {
+        transition: all 0.5s;
+    }
+
+    .container-div .tabs li:hover {
+        background-color: var(--color_boton_realce);
+    }
+
+    .skills__box {
+        max-width: 100%;
+        width: 30%;
+        max-height: 100%;
+        padding: 0;
+        align-self: flex-start;
+        font-size: 24px;
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        color: var(--color_fondo_claro);
+    }
+
+    .skills__box ul {
+        align-items: center;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .skills__img {
+        scale: 2.0;
+    }
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Juan F. Delgado G.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Fuentes del proyecto Raleway -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <title> Mi Portafolio</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="menu-header">
+            <div class="contact-info">
+                <p class="fa fa-mobile">
+                    <a href="tel:+0573143825931" class="contact-telefono">
+                        +057 3143825931
+                    </a>
+                </p>
+                <p class="fa fa-envelope">
+                    <a href="mailto:delgadojuanfidel@gmail.com" class="contact-email">
+                        delgadojuanfidel@gmail.com
+                    </a>
+                </p>
+            </div>
+        </section>
+        <section class="menu-profile">
+            <div class="profile">
+                <img src="img/Foto perfil.jpg" alt="Mi Foto">
+                <span>Juan Fidel Delgado González</span>
+            </div>
+        </section>
+        <section class="menu-network">
+            <div class="title__network">
+                <a href="https://github.com/JuanFidelDelgado" class="fa fa-github" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/juan-delgado-desarrollador/" class="fa fa-linkedin"
+                    target="_blank"></a>
+                <a href="https://github.com/JuanFidelDelgado" class="fa fa-file-pdf" target="_blank"></a>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="container">
+            <div class="container-div">
+                <ul class="tabs">
+                    <li class="active" onclick="openTab(event, 'sobreMi')">Sobre</li>
+                    <li onclick="openTab(event, 'formacion')">Formación</li>
+                    <li onclick="openTab(event, 'habilidadesTecnicas')">Skills</li>
+                    <li onclick="openTab(event, 'habilidadesBlandas')">Habilidades</li>
+                    <li onclick="openTab(event, 'hobbies')">Hobbies</li>
+                    <li onclick="openTab(event, 'contacto')">Contacto</li>
+                </ul>
+            </div>
+            <div class="container-div">
+                <section class="container-section">
+                    <div id="sobreMi" class="tab-content">
+                        <h3>Sobre mí</h3>
+                        <p class="sobre-paragraph">
+                            Soy un tecnólogo en análisis y desarrollo de sistemas de información con una sólida
+                            formación académica de el SENA. He complementado mi educación con cursos especializados en
+                            programación a través del prestigioso programa Mision Tic 2022 en la Universidad Nacional de
+                            Colombia y el programa ONE de Oracle y Alura Latam. Como desarrollador front-end, poseo una
+                            gran pasión por la creación de experiencias de usuario atractivas y funcionales. Mi
+                            habilidad para traducir diseños visuales en sitios web interactivos y receptivos, utilizando
+                            tecnologías como HTML, CSS y JavaScript, me permite construir interfaces intuitivas y de
+                            alto rendimiento. Además, cuento con una mentalidad analítica que me permite comprender las
+                            necesidades del usuario y optimizar la usabilidad de las aplicaciones web. Soy un
+                            colaborador proactivo y creativo, capaz de trabajar en equipo y comunicarme de manera
+                            efectiva. Mi enfoque centrado en el cliente y mi capacidad para adaptarme rápidamente a los
+                            cambios me permiten abordar desafíos complejos de manera eficiente y cumplir con los plazos
+                            establecidos.
+                        </p>
+                    </div>
+                </section>
+                <section class="container-section">
+                    <div id="formacion" class="tab-content">
+                        <h3>Formación académica</h3>
+                        <p>Tengo formación como Tecnólogo en Análisis y Desarrollo de Sistemas de Información por parte
+                            del SENA. También he desarrollado cursos a través de programas como MisionTic 2022 y Oracle
+                            ONE.<br>A continuación los cursos certificados que he desarrollado:</p>
+                        <div class="formacion__list">
+                            <ul>
+                                <li class="formacion__cursos">Tecnología en análisis y desarrollo de sistemas de
+                                    información - SENA - 2023</li>
+                                <li class="formacion__cursos">Diplomado Fundamentos de programación - Universidad
+                                    Nacional de Colombia - 2022</li>
+                                <li class="formacion__cursos">Diplomado Programación Básica - Universidad
+                                    Nacional de Colombia - 2022</li>
+                                <li class="formacion__cursos">Diplomado Desarrollo de software - Universidad
+                                    Nacional de Colombia - 2022</li>
+                                <li class="formacion__cursos">Diplomado Profundización en desarrollo de aplicaciones
+                                    móviles - Universidad Nacional de Colombia - 2022</li>
+                                <li class="formacion__cursos">Diplomado habilidades en programación con énfasis en
+                                    apliaciones móviles</li>
+                                <li class="formacion__cursos">Curso Desarrollo de aplicaciones para dispositivos móviles
+                                    con plataforma Android</li>
+                                <li class="formacion__cursos">Fundamentos profesionales del desarrollo de software -
+                                    Microsoft y LinkedIn - 2023</li>
+                                <li class="formacion__cursos">Metodología de la programación de sistemas de información
+                                    - SENA - 2021</li>
+                                <li class="formacion__cursos">Desarrollo personal - Alura - 2023</li>
+                                <li class="formacion__cursos">Principiante en programación - Alura - 2023</li>
+                                <li class="formacion__cursos">Bussiness Agility - Alura - 2023</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-section">
+                    <div id="habilidadesTecnicas" class="tab-content">
+                        <h3 class="skills__title">Habilidades técnicas</h3>
+                        <p>En el proceso formativo e investigativo como desarrollador, he adquirido habilidades en estas
+                            tecnologías: </p>
+                        <br>
+                        <div class="skills__line">
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"><img src="./img/htlm.png" alt=""></li>
+                                    <li class="skills__name"> HTML 5</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"><img src="./img/js_icon.png" alt=""></li>
+                                    <li class="skills__name">Javascript</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="./img/php_icon.png" alt=""></li>
+                                    <li class="skills__name">PHP</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"><img src="./img/nodejs_icon.png" alt=""></li>
+                                    <li class="skills__name">Node JS</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="./img/react_icon.png" alt=""> </li>
+                                    <li class="skills__name">React</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="./img/css_icon.png" alt=""> </li>
+                                    <li class="skills__name">CSS 3</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="./img/eng.png" alt=""> </li>
+                                    <li class="skills__name">English B2</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Además, cuento con certificación de inglés nivel B2.</p>
+                    </div>
+                </section>
+                <section class="container-section">
+                    <div id="habilidadesBlandas" class="tab-content">
+                        <h3>Habilidades blandas</h3>
+                        <p>Mi habilidad para comunicarme de manera clara y concisa me ayuda a transmitir ideas de manera
+                            efectiva, ya sea de forma verbal o escrita. Además, mi empatía y capacidad de escucha activa
+                            me permiten comprender las necesidades y perspectivas de los demás, fomentando así un
+                            ambiente de trabajo colaborativo y respetuoso.<br>Soy un líder natural, capaz de motivar y
+                            guiar a los miembros del equipo hacia el logro de metas comunes, fomentando un ambiente de
+                            trabajo positivo y productivo. Mi flexibilidad y adaptabilidad me permiten enfrentar
+                            desafíos con facilidad, encontrar soluciones creativas y ajustarme rápidamente a los
+                            cambios.<br><br>Estas habilidades blandas, combinadas con mi dedicación y ética laboral, me
+                            convierten en un profesional versátil y valioso en cualquier entorno. </p>
+                    </div>
+                </section>
+                <section class="container-section">
+                    <div id="hobbies" class="tab-content">
+                        <h3>Mis hobbies</h3>
+                        <p>Aquí puedes agregar un formulario de contacto para que los visitantes puedan comunicarse
+                            contigo.
+                            Puedes
+                            incluir campos como nombre, correo electrónico y un área de mensaje.</p>
+                    </div>
+                </section>
+                <section class="container-section">
+                    <div id="contacto" class="tab-content">
+                        <h3>Formulario de contacto</h3>
+                        <p>Aquí puedes agregar un formulario de contacto para que los visitantes puedan comunicarse
+                            contigo.
+                            Puedes
+                            incluir campos como nombre, correo electrónico y un área de mensaje.</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <a href="https://www.flaticon.es/iconos-gratis/css" title="css iconos">Css iconos creados por Freepik - Flaticon</a>
+
+
+
+</body>
+
+</html>
