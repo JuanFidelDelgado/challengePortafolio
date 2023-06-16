@@ -5,6 +5,7 @@
     <title>Juan F. Delgado G.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header/datos__contacto.css">
     <!-- Fuentes del proyecto Raleway -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
@@ -15,51 +16,47 @@
 
 <body>
     <header>
-        <section class="menu-header">
-            <div class="contact-info">
-                <p class="fa fa-mobile">
-                    <a href="tel:+0573143825931" class="contact-telefono">
-                        +057 3143825931
-                    </a>
-                </p>
-                <p class="fa fa-envelope">
-                    <a href="mailto:delgadojuanfidel@gmail.com" class="contact-email">
-                        delgadojuanfidel@gmail.com
-                    </a>
-                </p>
-            </div>
+        <section class="datos__contacto">
+            <p class="fa fa-mobile">
+                <a href="tel:+0573143825931">
+                    +057 3143825931
+                </a>
+            </p>
+            <p class="fa fa-envelope">
+                <a href="mailto:delgadojuanfidel@gmail.com">
+                    delgadojuanfidel@gmail.com
+                </a>
+            </p>
         </section>
-        <section class="menu-profile">
-            <div class="profile">
-                <img src="img/Foto perfil.jpg" alt="Mi Foto">
-                <span>Juan Fidel Delgado González</span>
-            </div>
+        <section class="perfil">
+            <img src="img/Foto perfil.jpg" alt="Mi Foto">
+            <span>Juan Fidel Delgado González</span>
         </section>
-        <section class="menu-network">
-            <div class="title__network">
-                <a href="https://github.com/JuanFidelDelgado" class="fa fa-github" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/juan-delgado-desarrollador/" class="fa fa-linkedin"
-                    target="_blank"></a>
-                <a href="https://drive.google.com/file/d/1uC-NU9V9CwpL2sqm6HXBD13o2Qz5wFTg/view?usp=drive_link"
-                    class="fa fa-file-pdf" target="_blank"></a>
-            </div>
+        <section class="redes">
+            <a href="https://github.com/JuanFidelDelgado" class="fa fa-github" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/juan-delgado-desarrollador/" class="fa fa-linkedin"
+                target="_blank"></a>
+            <a href="https://drive.google.com/file/d/1uC-NU9V9CwpL2sqm6HXBD13o2Qz5wFTg/view?usp=drive_link"
+                class="fa fa-file-pdf" target="_blank"></a>
         </section>
     </header>
     <main class="main">
         <section class="container">
-            <div class="container-div">
-                <ul class="tabs">
-                    <li class="active" onclick="openTab(event, 'sobreMi')">Sobre</li>
-                    <li onclick="openTab(event, 'formacion')">Formación</li>
-                    <li onclick="openTab(event, 'habilidadesTecnicas')">Skills</li>
-                    <li onclick="openTab(event, 'habilidadesBlandas')">Habilidades</li>
-                    <li onclick="openTab(event, 'hobbies')">Hobbies</li>
-                    <li onclick="openTab(event, 'contacto')">Contacto</li>
-                </ul>
+            <div class="container__div">
+                <section class="container__tabs">
+                    <ul class="tabs">
+                        <li class="active" onclick="openTab(event, 'sobreMi')">Sobre</li>
+                        <li onclick="openTab(event, 'formacion')">Formación</li>
+                        <li onclick="openTab(event, 'habilidadesTecnicas')">Skills</li>
+                        <li onclick="openTab(event, 'habilidadesBlandas')">Habilidades</li>
+                        <li onclick="openTab(event, 'hobbies')">Hobbies</li>
+                        <li onclick="openTab(event, 'contacto')">Contacto</li>
+                    </ul>
+                </section>
             </div>
-            <div class="container-div">
-                <section class="container-section">
-                    <div id="sobreMi" class="tab-content">
+            <div class="container__div">
+                <section class="container__section">
+                    <div id="sobreMi" class="tab__content">
                         <h3>Sobre mí</h3>
                         <p class="sobre-paragraph">
                             Soy un tecnólogo en análisis y desarrollo de sistemas de información con una sólida
@@ -78,8 +75,8 @@
                         </p>
                     </div>
                 </section>
-                <section class="container-section">
-                    <div id="formacion" class="tab-content">
+                <section class="container__section">
+                    <div id="formacion" class="tab__content">
                         <h3>Formación académica</h3>
                         <p>Tengo formación como Tecnólogo en Análisis y Desarrollo de Sistemas de Información por parte
                             del SENA. También he desarrollado cursos a través de programas como MisionTic 2022 y Oracle
@@ -111,8 +108,8 @@
                         </div>
                     </div>
                 </section>
-                <section class="container-section">
-                    <div id="habilidadesTecnicas" class="tab-content">
+                <section class="container__section">
+                    <div id="habilidadesTecnicas" class="tab__content">
                         <h3 class="skills__title">Habilidades técnicas</h3>
                         <p>En el proceso formativo e investigativo como desarrollador, he adquirido habilidades en estas
                             tecnologías: </p>
@@ -158,8 +155,8 @@
                         <p>Además, cuento con certificación de inglés nivel B2.</p>
                     </div>
                 </section>
-                <section class="container-section">
-                    <div id="habilidadesBlandas" class="tab-content">
+                <section class="container__section">
+                    <div id="habilidadesBlandas" class="tab__content">
                         <h3>Habilidades blandas</h3>
                         <p>Mi habilidad para comunicarme de manera clara y concisa me ayuda a transmitir ideas de manera
                             efectiva, ya sea de forma verbal o escrita. Además, mi empatía y capacidad de escucha activa
@@ -172,8 +169,8 @@
                             convierten en un profesional versátil y valioso en cualquier entorno. </p>
                     </div>
                 </section>
-                <section class="container-section">
-                    <div id="hobbies" class="tab-content">
+                <section class="container__section">
+                    <div id="hobbies" class="tab__content">
                         <h3>Mis hobbies</h3>
                         <p>En mis momentos de ocio, o cuando necesito relajarme y despejar la mente para ser más
                             productivo, principalmente dedico tiempo a estas actividades:</p>
@@ -199,8 +196,8 @@
                         </div>
                     </div>
                 </section>
-                <section class="container-section">
-                    <div id="contacto" class="tab-content">
+                <section class="container__section">
+                    <div id="contacto" class="tab__content">
                         <h3>Formulario de contacto</h3>
                         <p>Aquí puedes agregar un formulario de contacto para que los visitantes puedan comunicarse
                             contigo.

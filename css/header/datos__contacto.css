@@ -1,0 +1,126 @@
+/* Estilos de la sección "datos__contacto" */
+.datos__contacto {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 10px 10px 0 10px;
+}
+
+.datos__contacto p {
+    margin: 10px 10px 10px 10px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.datos__contacto p a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilos de la sección "perfil" */
+.perfil {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.perfil img {
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px #ffffff;
+    margin: 10px;
+}
+
+.perfil span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos de la sección "redes" */
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 10px 0px 10px;
+    align-self: center;
+    font-size: 120%;
+}
+
+.redes a {
+    color: #fff;
+    margin-left: 1rem;
+    font-size: larger;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        height: 400px;
+        background-image: url(../../img/18adb7094eb7d2a71d4bfc6d8c58ef29.jpg);
+        /*background-color: blue;*/
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        padding-top: 10px;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .datos__contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #ffffff;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .datos__contacto p {
+        font-size: 20px;
+    }
+
+    .perfil {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .perfil img {
+        margin-top: 0px;
+        width: 300px;
+        border-radius: 20%;
+        box-shadow: 2px 2px 5px #ffffff;
+    }
+
+    .perfil span {
+        color: #ffffff;
+        font-size: 4rem;
+        text-shadow: 2px 2px 4px #ffffff;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        padding: 0;
+        align-self: center;
+        font-size: 200%;
+        margin: 10px 10px 0 10px;
+    }
+
+    .redes a {
+        color: #fff;
+        margin-left: 25px;
+        font-size: larger;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+    .redes a:hover {
+        color: var(--color_fondo_oscuro);
+        scale: 1.5;
+    }
+}

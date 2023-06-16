@@ -3,7 +3,7 @@ function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
 
     // Ocultar todo el contenido de las pestañas
-    tabcontent = document.getElementsByClassName("tab-content");
+    tabcontent = document.getElementsByClassName("tab__content");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
