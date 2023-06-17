@@ -1,0 +1,19 @@
+.principal {
+    position: relative;
+    display: flex;
+    margin: 10px 10px 0px 10px;
+}
+
+.principal__pestanas {
+    margin-top: 10px;
+}
+
+.principal__contenido {
+    margin: 10px 0 0 5px;
+}
+
+@media screen and (min-width:1024px) {
+    .principal {
+        flex-direction: column;
+    }
+}

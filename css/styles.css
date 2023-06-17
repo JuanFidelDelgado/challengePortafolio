@@ -1,1 +1,6 @@
-@import url("header/menu__header.css");
+@import url("style.css");
+@import url("1.header/header.css");
+@import url("2.main/principal.css");
+@import url("2.main/principal__pestanas.css");
+@import url("2.main/contenido.css");
+@import url("3.footer/footer.css");

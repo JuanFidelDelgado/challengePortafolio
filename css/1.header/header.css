@@ -60,7 +60,7 @@
     header {
         height: 400px;
         background-image: url(../../img/18adb7094eb7d2a71d4bfc6d8c58ef29.jpg);
-        /*background-color: blue;*/
+        background-image: url(../../img/Web1.webp);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -92,13 +92,13 @@
         margin-top: 0px;
         width: 300px;
         border-radius: 20%;
-        box-shadow: 2px 2px 5px #ffffff;
+        box-shadow: 2px 2px 5px #000000;
     }
 
     .perfil span {
         color: #ffffff;
-        font-size: 4rem;
-        text-shadow: 2px 2px 4px #ffffff;
+        font-size: 4.5rem;
+        text-shadow: 10px 10px 20px #000000;
     }
 
     .redes {
@@ -108,7 +108,7 @@
         padding: 0;
         align-self: center;
         font-size: 200%;
-        margin: 10px 10px 0 10px;
+        margin: 10px 20px 0 10px;
     }
 
     .redes a {
@@ -120,7 +120,7 @@
     }
 
     .redes a:hover {
-        color: var(--color_fondo_oscuro);
+        color: #000000;
         scale: 1.5;
     }
 }
