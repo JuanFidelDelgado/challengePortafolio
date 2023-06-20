@@ -1,0 +1,77 @@
+.footer .menu {
+    display: none;
+}
+
+.footer .menu .rodapie {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer .menu__list {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+    }
+
+    .menu__list li {
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 10%;
+        transition: all 0.5s;
+    }
+
+    .menu__list li:hover {
+        background-color: var(--color_boton_realce);
+    }
+
+    /* Estilos del footer */
+    .footer {
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        position: static;
+        left: 0;
+        margin: 30px 100px 0px 20px;
+        width: 97%;
+        color: #fff;
+        border-top: 2px solid var(--color_blanco);
+        border-radius: 5px;
+    }
+
+    .footer .menu {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .menu .rodapie {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .footer .menu__list {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+    }
+
+    .footer .menu__list li {
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 10%;
+        transition: all 0.5s;
+    }
+
+    .footer .menu__list li:hover {
+        background: var(--color_boton_realce);
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .footer .menu li a {
+        color: var(--color_blanco);
+        text-decoration: none;
+    }
+}

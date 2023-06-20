@@ -60,7 +60,6 @@
     header {
         height: 400px;
         background-image: url(../../img/18adb7094eb7d2a71d4bfc6d8c58ef29.jpg);
-        /*background-image: url(../../img/Web1.webp);*/
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -120,7 +119,7 @@
     }
 
     .redes a:hover {
-        color: #000000;
+        color: var(--color_blanco);
         scale: 1.5;
     }
 }
