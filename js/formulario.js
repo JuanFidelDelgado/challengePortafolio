@@ -5,6 +5,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     var correoElectronico = document.getElementById("correoElectronico").value;
     var telefono = document.getElementById("telefono").value;
     var mensaje = document.getElementById("mensaje").value;
+    var asunto = document.getElementById("asunto").value;
 
     var contactoPreferido;
     var opcionesContacto = document.getElementsByName("contacto");
@@ -15,7 +16,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
         }
     }
 
-    var subject = "Formulario de contacto";
+    var subject = asunto;
     var body = "Nombres y apellidos: " + nombreApellido + "\n" +
         "Correo electrónico: " + correoElectronico + "\n" +
         "Teléfono: " + telefono + "\n" +

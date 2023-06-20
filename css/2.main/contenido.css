@@ -45,6 +45,17 @@
     list-style-type: none;
 }
 
+#proyectos ul li span {
+    align-self: center;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#proyectos ul li p {
+    margin-left: 40px;
+}
+
 .muestra__proyecto {
     display: none;
 }
