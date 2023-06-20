@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
     <title> Mi Portafolio</title>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -42,9 +41,7 @@
     <main class="principal">
         <section class="principal__pestanas">
             <ul class="tabs">
-                <a href="index.html" target="_blank" style="text-decoration: none;">
-                    <li onclick="openTab(event, 'sobreMi')">Inicio</li>
-                </a>
+                <li><a href="index.html" style="text-decoration: none;">Inicio</a></li>
                 <li class="active" onclick="openTab(event, 'sobreMi')">Sobre</li>
                 <li onclick="openTab(event, 'formacion')">Formación</li>
                 <li onclick="openTab(event, 'habilidadesTecnicas')">H.Técnicas</li>
@@ -210,8 +207,7 @@
                         <li>
                             <span>Proyecto encriptador</span>
                             <p>
-                                Encriptador de texto para cifrar y descifrar textos. Permite también copiar el texto
-                                cifrado para su disposición.
+                                Encriptador de texto para cifrar y descifrar textos.
                             </p>
                             <p>
                                 Click <a href="https://juanfideldelgado.github.io/Encriptador-Alura/"
@@ -223,6 +219,17 @@
                                     height="315" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </li>
+                        <br>
+                        <li>
+                            <span>Animal Center</span>
+                            <p>
+                                Sistema de administración de clínica veterinaria.
+                            </p>
+                            <div class="muestra__proyecto">
+                                <img class="imagen__proyecto" src="img/veterinaria1.png">
+                                <img class="imagen__proyecto" src="img/veterinaria2.png">
+                            </div>
+                        </li>
                     </ul>
 
                 </div>
@@ -230,10 +237,42 @@
             <section class="contenido__seccion">
                 <div id="contacto" class="contenido">
                     <h3>Formulario de contacto</h3>
-                    <p>Aquí puedes agregar un formulario de contacto para que los visitantes puedan comunicarse
-                        contigo.
-                        Puedes
-                        incluir campos como nombre, correo electrónico y un área de mensaje.</p>
+                    <p>
+                        ¿Estás interesado en mis servicios profesionales?
+                    </p>
+                    <p>
+                        Déjame tus datos y me comunico contigo a la mayor brevedad posible.
+                    </p>
+                    <form class="contacto__formulario">
+                        <label for="nombreApellido">Nombres y apellidos / Razón social</label>
+                        <input type="text" id="nombreApellido" class="inputPatron" placeholder="Nombre o Razón social"
+                            required>
+
+                        <label for="correoElectronico">Correo Electrónico</label>
+                        <input type="email" id="correoElectronico" class="inputPatron"
+                            placeholder="Tu dirección de correo electrónico" required>
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="inputPatron" placeholder="(***) *** ** ** **" required>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea cols="70" rows="10" id="mensaje" class="inputPatron" placeholder="Ingresa tu mensaje"
+                            required></textarea>
+
+                        <fieldset>
+                            <legend>Escoje la opción de contacto de tu preferencia</legend>
+
+                            <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail"
+                                    checked>Correo Electrónico</label>
+
+                            <label for="radioTelefono"><input type="radio" name="contacto" value="telefono"
+                                    id="radioTelefono">Teléfono</label>
+
+                            <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp"
+                                    id="radioWhatsapp">Whatsapp</label>
+                        </fieldset>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
                 </div>
             </section>
         </div>
@@ -253,6 +292,7 @@
             </div>
             <div>
                 <ul class="menu__list">
+                    <li><a href="index.html" style="text-decoration: none;">Inicio</a></li>
                     <li class="active" onclick="openTab(event, 'sobreMi')">Sobre mi</li>
                     <li onclick="openTab(event, 'formacion')">Formación</li>
                     <li onclick="openTab(event, 'habilidadesTecnicas')">Skills</li>
@@ -264,6 +304,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="js/formulario.js"></script>
+
 </body>
 
 </html>
