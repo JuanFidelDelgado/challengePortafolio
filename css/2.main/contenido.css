@@ -37,6 +37,10 @@
     height: 64px;
 }
 
+.formacion__cursos a {
+    color: #ffffff;
+}
+
 #proyectos ul {
     padding: 0;
 }
